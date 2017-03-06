@@ -1,0 +1,147 @@
+@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+body {
+    background-size: contain;
+    background: #f5f5f5;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 3.0vh;
+}
+#frågor {
+    background:lightslategray;
+    color: rgb(255, 255, 255);
+}
+#frågor p {
+    padding-left:6vmin;
+}
+.fullpage {
+    min-height: 100vh;
+    height: 100%;
+}
+.onepage {
+    min-height: 85vh;
+    height: 85%;
+}
+@media (min-width: 970px) {
+    #content {
+        min-height: 50vh;
+        height: 50%;
+    }
+}
+
+.arrow-down {
+    color:#fff;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size:7vmax;
+    bottom: 0vh;
+}
+a:hover.arrow-down, a:visited.arrow-down, a:active.arrow-down {
+    color:#fff;
+}
+.arrow-animation {
+    -webkit-animation: pulsate 2s ease-out;
+    animation: pulsate 2s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    opacity: 0.5
+}
+@keyframes pulsate {
+    0% { opacity: 0.4;}
+    50% {opacity: 1.0;}
+    100% { opacity: 0.4;}
+}
+@-webkit-keyframes pulsate {
+    0% { opacity: 0.4;}
+    50% {opacity: 1.0;}
+    100% { opacity: 0.4;}
+}
+.imgbackground {
+    color: #FFF;
+    background-position: center center, center center;
+    background-clip: border-box, border-box;
+    background-origin: padding-box, padding-box;
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.title {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("/img/title.jpg");
+    display: block;
+    background-color: transparent;
+    background-attachment: scroll, fixed;
+}
+
+.firstpart {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("/img/paper.jpg");
+}
+.findus {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("/img/lindholmen.jpg");
+}
+
+#map {
+    height: 85vh;
+    pointer-events: none;
+}
+
+.title-text {
+    text-align: center;
+    font-family: 'Gloria Hallelujah';
+    font-weight: normal;
+    display: block;
+    position: relative;
+    top: 20vh;
+    width: 100vw;
+    font-size: 15vw;
+    -webkit-font-smoothing: antialiased;
+}
+
+.title-text p {
+    font-size: 4vw;
+}
+
+.organisations {
+    height: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.connections {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.justify {
+    text-align: justify;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Gloria Hallelujah';
+}
+
+h1 {
+    font-size: 12vmin;
+}
+
+h2 {
+    font-size: 8vmin;
+}
+
+h3 {
+    font-size: 6vmin;
+}
+
+h4 {
+    font-size: 4vh;
+    font-family: 'Verdana';
+
+}
+
